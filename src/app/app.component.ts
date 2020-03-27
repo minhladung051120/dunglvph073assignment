@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css',
               './css/global.css',
               './css/style.css',
-              './css/easy-responsive-tabs.css' ]
+              './css/easy-responsive-tabs.css']
 })
 export class AppComponent  {
   name = 'Angular';
