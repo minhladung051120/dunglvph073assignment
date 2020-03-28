@@ -1,5 +1,35 @@
-.menu{
-  background-color: black;
-  padding-bottom: 20px;
+#hdr-btm-left{
+  margin-top: auto;
+}
+.menu {
+  overflow: hidden;
+  background-color:black;
+  
+}
+ 
+.menu a {
+  float: center;
+  color: crimson;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.menu a:hover {
+  background-color: #ddd;
+  color:blue;
+}
+ 
+.menu a.active {
+  background-color: #4CAF50;
+  color: rgb(12, 11, 11);
+}
+ 
+.menu-right {
+  float: left;
+}
+.search{
+  float: center;
+ 
+  
 }
