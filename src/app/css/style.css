@@ -32,6 +32,7 @@ body {
 	font-family: Arial, Geneva,Helvetica, sans-serif;
 	font-size: 100%;
 	background:#ffffff;
+  margin-top: -6%;
 }
 .wrap {
 	width: 80%;
@@ -39,13 +40,13 @@ body {
 }
 /*header*/
 /*logo*/
-.logo{
+/* .logo{
 	float:left;
-}
-header-right
+} */
+/* header-right
 .header-right{
 	float:right;
-}
+} */
 /*---contact-info---*/
 /* .contact-info{
 	text-align: right;
@@ -146,7 +147,7 @@ header-right
 	font-size: 0.825em;
 	width: 86.333%;
 	outline: none;
-	padding: 0px;
+	padding: 9px;
 	background: white;
 	border: none;
 	color: #777777;
