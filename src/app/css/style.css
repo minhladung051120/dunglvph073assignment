@@ -77,7 +77,7 @@ body {
 	content:url('../images/arrow.png');
 }
 .nav li.active a{
-	color:#97b538;
+	color:crimson;
 }
 .nav li {
 	padding: 0px 16px;
@@ -91,7 +91,7 @@ body {
 	text-transform: capitalize;
 	line-height: 1.8em;
 	font-weight: 400;
-	color: #777;
+	color:crimson;
 	font-family: 'Cabin Condensed', sans-serif;
 	text-decoration: none;
 	font-size: 1em;
@@ -313,7 +313,7 @@ body {
 	width:70.333%;
 	margin-left: 3.333%;
 }
-.cnt-btn{
+/* .cnt-btn{
 	float:right;
 	margin-right:4.333%;
 }
@@ -332,7 +332,7 @@ body {
 }
 .cnt-btn a:hover{
 	color: #97b538;
-}
+} */
 .cnt-main{
 	margin-top:3.5%;
 	background: #ffffff;
@@ -347,7 +347,8 @@ body {
 	-o-border-radius: 0.6em;	
 }
 .s_btn {
-	padding: 3.5%;
+	padding: -10%;
+  
 }
 .s_btn ul {
 	display: block;

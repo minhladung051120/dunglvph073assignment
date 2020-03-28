@@ -13,10 +13,11 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent, SlideComponent, HomeComponent, NotFoundComponent, ProductListComponent, ProductManagerComponent ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent, SlideComponent, HomeComponent, NotFoundComponent, ProductListComponent, ProductManagerComponent, ProductDetailComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })
