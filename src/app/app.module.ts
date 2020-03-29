@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ProductService } from './services/product.service';
 import { CategoryComponent } from './category/category.component';
-import { SlideComponent } from './slide/slide.component';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductListComponent } from './product-list/product-list.component';
@@ -17,7 +16,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, CategoryComponent, SlideComponent, HomeComponent, NotFoundComponent, ProductListComponent, ProductManagerComponent, ProductDetailComponent ],
+  declarations: [ AppComponent, HelloComponent, CategoryComponent, HomeComponent, NotFoundComponent, ProductListComponent, ProductManagerComponent, ProductDetailComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ProductService]
 })
